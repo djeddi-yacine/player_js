@@ -27,6 +27,7 @@ PlayerJS is video player for web created with javascript. This Package was creat
 ## Supported Formats
 
 You Need To Enable All Features First When You Build The Player .
+
 | Name | Extensions |
 | ------ | ------ |
 | MPEG-4 | .MP4|
@@ -35,6 +36,7 @@ You Need To Enable All Features First When You Build The Player .
 | WebM | .WEBM |
 | HLS | .M3U8 |
 | MPEG-DASH | .MPD |
+
 ## Example
 
 ```dart
@@ -53,6 +55,9 @@ Player(
 ## The MIT License (MIT)
 
 ```
+MIT License
+
+
 Copyright (c) 2023 Djeddi Yacine
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
