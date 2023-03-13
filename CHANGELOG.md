@@ -1,3 +1,7 @@
 ## 1.0.0
 
-* TODO: Describe initial release.
+* First Release.
+
+## 1.0.1
+
+* Fix Some Code
