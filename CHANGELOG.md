@@ -5,3 +5,7 @@
 ## 1.0.1
 
 * Fix Some Code
+
+## 1.0.2
+
+* Remove license keyword from pubspec
