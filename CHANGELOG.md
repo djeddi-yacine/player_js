@@ -9,3 +9,7 @@
 ## 1.0.2
 
 * Remove license keyword from pubspec
+
+## 1.0.3
+
+* change the license
