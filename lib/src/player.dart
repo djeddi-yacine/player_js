@@ -1,9 +1,23 @@
 part of player_js;
 
+///Render Video with Custom PlayerJS
 class Player extends StatefulWidget {
+  ///  Add the Height of the Video
+  ///  like : 400
   final double height;
+
+  ///  Add the Width of the Video
+  ///  like : 700
   final double width;
+
+  ///  Add the Direct URL of the video
+  ///  like :  'https://example/video/video.mp4'
   final String videoUrl;
+
+  /// add subtitles as a map like :
+  ///   {'AR':'https://example/video/arabic.srt',
+  ///   'EN':'https://example/video/english.vtt'}
+  ///  remove all space in the ''
   final Map<String, String> subtitles;
   const Player({
     Key? key,

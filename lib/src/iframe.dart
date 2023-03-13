@@ -3,6 +3,7 @@ part of player_js;
 ///Render Iframe with Custom PlayerJS
 class Iframe extends StatefulWidget {
   final String viewType;
+
   /// Add the path of the player.html.
   /// make sure that the same folder
   /// contain both the player.html
@@ -31,7 +32,7 @@ class Iframe extends StatefulWidget {
 
   /// add Poster like  :
   /// 'https://example/video/poster.png'
-  final String poster ;
+  final String poster;
 
   /// add Title like : 'Avengers'
   final String title;
@@ -76,7 +77,7 @@ class _IframeState extends State<Iframe> {
         width: widget.width,
         height: widget.height,
         color: Colors.transparent,
-          child: HtmlElementView(viewType: widget.viewType),
+        child: HtmlElementView(viewType: widget.viewType),
       );
     } else {
       return Container(
