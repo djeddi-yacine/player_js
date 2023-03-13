@@ -13,3 +13,7 @@
 ## 1.0.3
 
 * change the license
+
+## 1.0.4
+
+* remove universal_html
